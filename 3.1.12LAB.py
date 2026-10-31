@@ -7,7 +7,7 @@ else:
         print("common year")
     elif year % 100 !=0:
         print ("leap year")
-    elif year % 100 != 0:
+    elif year % 400 != 0:
         print ("common year")
     else:
         print("leap year")
